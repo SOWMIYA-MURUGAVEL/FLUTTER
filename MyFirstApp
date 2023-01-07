@@ -1,0 +1,17 @@
+import 'package:flutter/material.dart';
+void main() {
+  print('Hello from your Flutter app!');
+  runApp(MaterialApp(
+    home:Scaffold(
+          body:Center(child:Image.network('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeK0tCf6gFmXo_DrvqhxK9XRwWC6zvRtfhSg&usqp=CAU')),
+          
+          backgroundColor: Color.fromARGB(255, 6, 5, 6),
+      appBar:AppBar(
+    title: Text('STAY COOL'),
+    backgroundColor: Color.fromARGB(255, 50, 50, 50),
+),
+  ), 
+  ),
+  );
+
+}
